@@ -16,3 +16,8 @@ $ docker pull ghcr.io/mitsu-ksgr/hextra-dock:latest
 $ docker run --rm -it -p 1313:1313 -v ./your-docs:/docs ghcr.io/mitsu-ksgr/hextra-dock:latest
 ```
 
+
+## References
+- [Hugo](https://gohugo.io/)
+- [Hextra - Hugo Theme](https://imfing.github.io/hextra/)
+
