@@ -9,7 +9,10 @@ Run Hugo with hextra theme on the docker container.
 ## How to use
 
 ```sh
-$ docker pull hextra-dock:latest
-$ docker run --rm -it -p 1313:1313 -v ./your-docs:/docs hextra-dock:latest
+# Pull the docker image.
+$ docker pull ghcr.io/mitsu-ksgr/hextra-dock:latest
+
+# Run
+$ docker run --rm -it -p 1313:1313 -v ./your-docs:/docs ghcr.io/mitsu-ksgr/hextra-dock:latest
 ```
 
