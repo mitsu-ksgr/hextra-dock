@@ -1,13 +1,16 @@
-name: Build hextra-dock docker image 
+name: Build hextra-dock docker image
 
 on:
   push:
     branches: [ "main" ]
 
+permissions:
+  packages: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
