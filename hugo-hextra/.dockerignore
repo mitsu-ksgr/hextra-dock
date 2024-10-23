@@ -1,0 +1,11 @@
+#
+# .dockerignore
+#
+.dockerignore
+.git
+.github
+.gitignore
+.devcontainer
+.vscode
+README.md
+
