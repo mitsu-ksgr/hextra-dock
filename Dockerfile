@@ -26,6 +26,9 @@ RUN mkdir /docs
 RUN chown -R hugo:hugo /docs
 COPY --chmod=744 ./docker-entrypoint.sh /usr/bin/docker-entrypoint.sh
 
+RUN mkdir /conf
+RUN chown -R hugo:hugo /conf
+
 ENTRYPOINT ["/bin/sh", "/usr/bin/docker-entrypoint.sh"]
 # CMD ["server", "-D", "--bind", "0.0.0.0"]
 
