@@ -16,7 +16,7 @@ readonly SCRIPT_NAME=$(basename $0)
 #
 DOCKER_HUGO_TAG="ghcr.io/gohugoio/hugo"
 #DOCKER_HUGO_VER="latest"
-DOCKER_HUGO_VER="v0.136.3"
+DOCKER_HUGO_VER="v0.139.2"
 DOCKER_HUGO="${DOCKER_HUGO_TAG}:${DOCKER_HUGO_VER}"
 
 

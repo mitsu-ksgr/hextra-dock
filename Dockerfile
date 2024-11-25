@@ -7,7 +7,7 @@
 #
 
 #ARG HUGO_VERSION="latest"
-ARG HUGO_VERSION="v0.136.3"
+ARG HUGO_VERSION="v0.139.2"
 
 FROM ghcr.io/gohugoio/hugo:${HUGO_VERSION}
 
